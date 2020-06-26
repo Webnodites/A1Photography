@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="We are here for creative Photography & Videography like wedding, birthday, outdoor shoots & theme shoots">
+<meta name="keywords" content="Photography, Videography, Wedding cinema, Creative Photo, Outdoor shoot, Theme shoot, Birthday photos, house warming,
+Engagement, Reception, Motion Video, Photographer, Videographer, Video Coverage, Photo shoot, Editing, Albums, Digital Camera, Photograohy Film,
+Best wedding Photography, Top wedding photography, Best wedding Photographers, Top wedding Photographers, Best photographer in Karur" />
+<link rel="shortcut icon" href="style/images/favicon.png">
+<title>Sai Studio - Contact Us</title>
+<!-- Bootstrap core CSS -->
+<link href="style/css/bootstrap.min.css" rel="stylesheet">
+<link href="style/css/plugins.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="style/css/color/orange.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href="style/type/icons.css" rel="stylesheet">
+<link href="style/css/mystyle.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="style/js/html5shiv.min.js"></script>
+<script src="style/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="preloader"><div class="textload">Loading</div><div id="status"><div class="spinner"></div></div></div>
+<main class="body-wrapper">
+  <div class="navbar solid dark">
+    <div class="navbar-header">
+      <div class="basic-wrapper"> 
+        <div class="navbar-brand"> <a href="index.html"><img src="#" srcset="style/images/logo.png 1x, style/images/logo@2x.png 2x" class="logo-light" alt="" /><img src="#" srcset="style/images/logo-dark.png 1x, style/images/logo-dark@2x.png 2x" class="logo-dark" alt="" /></a> </div>
+        <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
+      </div>
+      <!-- /.basic-wrapper -->  
+    </div>
+    <!-- /.navbar-header -->
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Albums<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="wedding.html">Wedding</a></li>
+            <li><a href="outdoor.html">Outdoor Shoot</a></li>
+            <li><a href="themeshoot.html">Theme Shoot</a></li>
+            <li><a href="birthday_house_warming.html">Birthday & House Warming</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="wedding_cinema.html">Wedding Cinema</a></li>
+        <li class="dropdown"><a href="about.html">About</a></li>
+        <li class="current dropdown"><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- /.navbar-nav -->
+    </nav>
+    <!-- /.navbar-collapse -->
+    <div class="social-wrapper">
+      <ul class="social naked">
+        <li><a href="https://www.facebook.com/nagameyappan" target="_blank"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="https://twitter.com/SaiStudio_Karur" target="_blank"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCnaLZR2cvCWbdZp6s_RYIqg" target="_blank"><i class="icon-s-youtube"></i></a></li>
+      </ul>
+      <!-- /.social -->
+    </div>
+    <!-- /.social-wrapper -->
+  </div>
+  <!-- /.navbar -->
+  
+  <div class="offset"></div>
+  <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
+  <script> google.maps.event.addDomListener(window, 'load', init);
+	var map;
+	function init() {
+	    var mapOptions = {
+	        center: new google.maps.LatLng(10.9778591, 78.0788486),
+	        zoom: 15,
+	        zoomControl: true,
+	        zoomControlOptions: {
+	            style: google.maps.ZoomControlStyle.DEFAULT,
+	        },
+	        disableDoubleClickZoom: false,
+	        mapTypeControl: true,
+	        mapTypeControlOptions: {
+	            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+	        },
+	        scaleControl: true,
+	        scrollwheel: false,
+	        streetViewControl: true,
+	        draggable : true,
+	        overviewMapControl: false,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP,
+			styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
+			}
+	
+	    var mapElement = document.getElementById('map');
+	    var map = new google.maps.Map(mapElement, mapOptions);
+	    var locations = [
+	        ['Boudewijn Ostenstraat 2', 10.9778591, 78.0788486]
+	    ];
+	    for (i = 0; i < locations.length; i++) {
+	        marker = new google.maps.Marker({
+	            icon: 'style/images/map-pin.png',
+	            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+	            map: map
+	        });
+	    }
+	}
+  </script>
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="section-title">Get in Touch</h2>
+          <p>We would always prefer to talk with you face to face or over the phone.  (Call now to schedule a free consultation 9787500011) but we also recognize our brides & grooms are very busy people and you may not have the time right nw to chat with us. So, for your convenience we have provided the form below to "Tell Your Story"...</p>
+          <div class="divide10"></div>
+          <!--<div class="form-container">-->
+            <!--<form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">-->
+              <!--<div class="row">-->
+                <!--<div class="col-sm-6">-->
+                  <!--<div class="form-field">-->
+                    <!--<label>-->
+                      <!--<input type="text" name="name" placeholder="Your name" required="required">-->
+                    <!--</label>-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
+                <!--</div>-->
+                <!--&lt;!&ndash;/column &ndash;&gt;-->
+                <!--<div class="col-sm-6">-->
+                  <!--<div class="form-field">-->
+                    <!--<label>-->
+                      <!--<input type="email" name="email" placeholder="Your e-mail" required="required">-->
+                    <!--</label>-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
+                <!--</div>-->
+                <!--&lt;!&ndash;/column &ndash;&gt;-->
+                <!--<div class="col-sm-6">-->
+                  <!--<div class="form-field">-->
+                    <!--<label>-->
+                      <!--<input type="tel" name="tel" placeholder="Phone">-->
+                    <!--</label>-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
+                <!--</div>-->
+                <!--&lt;!&ndash;/column &ndash;&gt;-->
+                <!--<div class="col-sm-6">-->
+                  <!--<div class="form-field">-->
+                    <!--<label class="custom-select">-->
+                      <!--<select name="department" required="required">-->
+                        <!--<option value="">Select Department</option>-->
+                        <!--<option value="Sales">Sales</option>-->
+                        <!--<option value="Marketing">Marketing</option>-->
+                        <!--<option value="Support">Customer Support</option>-->
+                        <!--<option value="Other">Other</option>-->
+                      <!--</select>-->
+                      <!--<span>&lt;!&ndash; fake select handler &ndash;&gt;</span> </label>-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
+                <!--</div>-->
+                <!--&lt;!&ndash;/column &ndash;&gt; -->
+              <!--</div>-->
+              <!--&lt;!&ndash;/.row &ndash;&gt;-->
+              <!--<textarea name="message" placeholder="Type your message here..." required="required"></textarea>-->
+              <!--<div class="radio-set">-->
+                <!--<label>Subject:</label>-->
+                <!--<label>-->
+                  <!--<input type="radio" name="subject" value="General">-->
+                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> General</label>-->
+                <!--<label>-->
+                  <!--<input type="radio" name="subject" value="Hi">-->
+                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> Say Hi</label>-->
+                <!--<label>-->
+                  <!--<input type="radio" name="subject" value="Other">-->
+                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> Other</label>-->
+              <!--</div>-->
+              <!--&lt;!&ndash;/.radio-set &ndash;&gt;-->
+              <!--<input type="submit" class="btn" value="Send" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!">-->
+              <!--<footer class="notification-box"></footer>-->
+            <!--</form>-->
+            <!--&lt;!&ndash;/.vanilla-form &ndash;&gt; -->
+          <!--</div>-->
+          <!--&lt;!&ndash;/.form-container &ndash;&gt; -->
+          
+        </div>
+        <!--/column -->
+        
+        <aside class="col-sm-4">
+          <div class="sidebox widget">
+            <h3 class="widget-title">Address</h3>
+            <p>Feel free to contact us. </p>
+            <address>
+            <strong>Sai Stidio </strong><br>
+            Vengamedu <br>
+            Karur - 639006<br>
+            <abbr title="Phone">Phone:</abbr> +91 9787500011, 9787500022, 9787500033, 8870234678 <br>
+            <abbr title="Email">E-mail:</abbr> <a href="mailto:saistudiokarur@gmail.com">saistudiokarur@gmail.com</a>
+            </address>
+          </div>
+          <!-- /.widget --> 
+          
+        </aside>
+        <!--/column --> 
+        
+      </div>
+      <!--/.row --> 
+      
+    </div>
+    <!--/.container --> 
+  </div>
+  <!--/.light-wrapper -->
+  
+  <footer class="footer inverse-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="widget">
+            <h3 class="widget-title">Popular Photos</h3>
+            <ul class="post-list">
+              <li>
+                <div class="icon-overlay"> <img src="style/images/art/a1.jpg" alt="" /> </div>
+                <div class="meta">
+                  <h5>Getting ready to marriage</h5>
+                  <em><span class="date">5th Jan 2016</span></em> </div>
+              </li>
+              <li>
+                <div class="icon-overlay"><img src="style/images/art/a2.jpg" alt="" /></div>
+                <div class="meta">
+                  <h5>Having fun with friends</h5>
+                  <em><span class="date">28th Sep 2015</span></span></em> </div>
+              </li>
+              <li>
+                <div class="icon-overlay"><img src="style/images/art/a3.jpg" alt="" /></div>
+                <div class="meta">
+                  <h5>Walks before wedding</h5>
+                  <em><span class="date">15th Aug 2014</span></span></em> </div>
+              </li>
+            </ul>
+            <!-- /.post-list -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+
+        <div class="col-sm-4">
+          <div class="widget">
+            <h4 class="widget-title">Tags</h4>
+            <ul class="tag-list">
+              <li><a href="#" class="btn">Photography</a></li>
+              <li><a href="#" class="btn">Videography</a></li>
+              <li><a href="#" class="btn">Creativity</a></li>
+              <li><a href="#" class="btn">Casual</a></li>
+              <li><a href="#" class="btn">Theme</a></li>
+              <li><a href="#" class="btn">Outdoor</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+
+          <div class="widget">
+            <h4 class="widget-title">Elsewhere</h4>
+            <ul class="social">
+              <li><a href="https://twitter.com/SaiStudio_Karur" target="_blank"><i class="icon-s-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/nagameyappan"  target="_blank"><i class="icon-s-facebook"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCnaLZR2cvCWbdZp6s_RYIqg" target="_blank"><i class="icon-s-youtube"></i></a></li>
+            </ul>
+            <!-- .social -->
+
+          </div>
+        </div>
+        <!-- /column -->
+
+        <div class="col-sm-4">
+          <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title">Get In Touch</h4>
+            <p>Feel free to E-mail or Call us</p>
+            <div class="contact-info"> <i class="icon-location"></i> Sai Studio, Vengamedu, Karur. <br />
+              <i class="icon-phone"></i>+91 9787500011, 9787500022, 9787500033, 8870234678 <br />
+              <i class="icon-mail"></i> <a href="mailto:saistudiokarur@gmail.com">saistudiokarur@gmail.com</a> </div>
+          </div>
+          <!-- /.widget -->
+
+        </div>
+        <!-- /column -->
+
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- .container -->
+
+    <div class="sub-footer">
+      <div class="container inner">
+        <p class="text-center">© 2016 Sai Studio. All rights reserved. Theme by <a href="http://www.wavemine.com">WaveMine</a>.</p>
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .sub-footer -->
+  </footer>
+  <!-- /footer -->
+
+</main>
+<!--/.body-wrapper --> 
+<script src="style/js/jquery.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/plugins.js"></script> 
+<script src="style/js/classie.js"></script> 
+<script src="style/js/jquery.themepunch.tools.min.js"></script> 
+<script src="style/js/scripts.js"></script>
+</body>
+</html>
