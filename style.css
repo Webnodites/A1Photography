@@ -4362,7 +4362,16 @@ textarea {
 	}
 	[class*="col-"] {
 	    margin-bottom: 30px
-	}
+    }
+    
+    #touch{
+        margin-left: 2%;
+      }
+      
+      #touch1{
+        margin-left: 2%;
+      }
+      
 	.parallax .col-md-pull-6 .main {
 		margin-bottom: -30px;
 		width: 100%;
