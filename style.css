@@ -852,7 +852,7 @@ footer ul.circled li:before {
 .navbar .navbar-brand img.logo-dark,
 .navbar.solid.dark .navbar-brand img.logo-dark,
 .navbar.solid.light .navbar-brand img.logo-light {
-    display: none
+    display: none;
 }
 .navbar .navbar-brand img.logo-light,
 .navbar.solid.light .navbar-brand img.logo-dark,
@@ -1468,6 +1468,7 @@ main {
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  
 }
 main.slide-out {
   -webkit-transform: translateX(-320px);
@@ -1920,7 +1921,8 @@ video {
 .box .category span a {
 	color: #FFF;
 	padding: 3px 12px;
-	display: block;
+    display: block;
+    pointer-events: none;
 }
 .category.cat1 span a {
 	background: rgba(120,176,208,0.9);
@@ -3154,7 +3156,7 @@ textarea {
 .social {
     padding: 0;
     margin: 0;
-    font-size: 0;
+    font-size: 5;
     line-height: 1;
 }
 .social li {
@@ -3167,7 +3169,8 @@ textarea {
     margin: 0 3px
 }
 .social li a {
-    display: table
+    display: table;
+    
 }
 .social li a i {
     text-align: center;
@@ -3423,7 +3426,7 @@ textarea {
     color: #fff;
 }
 .social.naked a:hover i {
-    background: none
+    background: none;
 }
 .social.naked a:hover .icon-s-pinterest {
     color: #d8545d;
@@ -4419,4 +4422,17 @@ textarea {
 	.sticky-filter ul li:before {
 	    padding: 0 10px 0 10px;
 	}
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+.logonav{
+    height: auto;
+    width: 200px;
 }
