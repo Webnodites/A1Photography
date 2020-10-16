@@ -64,124 +64,21 @@ Best wedding Photography, Top wedding photography, Best wedding Photographers, T
   <!-- /.navbar -->
   
   <div class="offset"></div>
-  <div id="map"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
-  <script> google.maps.event.addDomListener(window, 'load', init);
-	var map;
-	function init() {
-	    var mapOptions = {
-	        center: new google.maps.LatLng(10.9778591, 78.0788486),
-	        zoom: 15,
-	        zoomControl: true,
-	        zoomControlOptions: {
-	            style: google.maps.ZoomControlStyle.DEFAULT,
-	        },
-	        disableDoubleClickZoom: false,
-	        mapTypeControl: true,
-	        mapTypeControlOptions: {
-	            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-	        },
-	        scaleControl: true,
-	        scrollwheel: false,
-	        streetViewControl: true,
-	        draggable : true,
-	        overviewMapControl: false,
-	        mapTypeId: google.maps.MapTypeId.ROADMAP,
-			styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
-			}
-	
-	    var mapElement = document.getElementById('map');
-	    var map = new google.maps.Map(mapElement, mapOptions);
-	    var locations = [
-	        ['Boudewijn Ostenstraat 2', 10.9778591, 78.0788486]
-	    ];
-	    for (i = 0; i < locations.length; i++) {
-	        marker = new google.maps.Marker({
-	            icon: 'style/images/map-pin.png',
-	            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-	            map: map
-	        });
-	    }
-	}
-  </script>
+
+  
   <div class="light-wrapper">
     <div class="container inner">
       <div class="row">
-        <div class="col-sm-8">
-          <h2 class="section-title">Get in Touch</h2>
-          <p>We would always prefer to talk with you face to face or over the phone.  (Call now to schedule a free consultation 9787500011) but we also recognize our brides & grooms are very busy people and you may not have the time right nw to chat with us. So, for your convenience we have provided the form below to "Tell Your Story"...</p>
-          <div class="divide10"></div>
-          <!--<div class="form-container">-->
-            <!--<form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">-->
-              <!--<div class="row">-->
-                <!--<div class="col-sm-6">-->
-                  <!--<div class="form-field">-->
-                    <!--<label>-->
-                      <!--<input type="text" name="name" placeholder="Your name" required="required">-->
-                    <!--</label>-->
-                  <!--</div>-->
-                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
-                <!--</div>-->
-                <!--&lt;!&ndash;/column &ndash;&gt;-->
-                <!--<div class="col-sm-6">-->
-                  <!--<div class="form-field">-->
-                    <!--<label>-->
-                      <!--<input type="email" name="email" placeholder="Your e-mail" required="required">-->
-                    <!--</label>-->
-                  <!--</div>-->
-                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
-                <!--</div>-->
-                <!--&lt;!&ndash;/column &ndash;&gt;-->
-                <!--<div class="col-sm-6">-->
-                  <!--<div class="form-field">-->
-                    <!--<label>-->
-                      <!--<input type="tel" name="tel" placeholder="Phone">-->
-                    <!--</label>-->
-                  <!--</div>-->
-                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
-                <!--</div>-->
-                <!--&lt;!&ndash;/column &ndash;&gt;-->
-                <!--<div class="col-sm-6">-->
-                  <!--<div class="form-field">-->
-                    <!--<label class="custom-select">-->
-                      <!--<select name="department" required="required">-->
-                        <!--<option value="">Select Department</option>-->
-                        <!--<option value="Sales">Sales</option>-->
-                        <!--<option value="Marketing">Marketing</option>-->
-                        <!--<option value="Support">Customer Support</option>-->
-                        <!--<option value="Other">Other</option>-->
-                      <!--</select>-->
-                      <!--<span>&lt;!&ndash; fake select handler &ndash;&gt;</span> </label>-->
-                  <!--</div>-->
-                  <!--&lt;!&ndash;/.form-field &ndash;&gt; -->
-                <!--</div>-->
-                <!--&lt;!&ndash;/column &ndash;&gt; -->
-              <!--</div>-->
-              <!--&lt;!&ndash;/.row &ndash;&gt;-->
-              <!--<textarea name="message" placeholder="Type your message here..." required="required"></textarea>-->
-              <!--<div class="radio-set">-->
-                <!--<label>Subject:</label>-->
-                <!--<label>-->
-                  <!--<input type="radio" name="subject" value="General">-->
-                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> General</label>-->
-                <!--<label>-->
-                  <!--<input type="radio" name="subject" value="Hi">-->
-                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> Say Hi</label>-->
-                <!--<label>-->
-                  <!--<input type="radio" name="subject" value="Other">-->
-                  <!--<span>&lt;!&ndash; fake radio &ndash;&gt;</span> Other</label>-->
-              <!--</div>-->
-              <!--&lt;!&ndash;/.radio-set &ndash;&gt;-->
-              <!--<input type="submit" class="btn" value="Send" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!">-->
-              <!--<footer class="notification-box"></footer>-->
-            <!--</form>-->
-            <!--&lt;!&ndash;/.vanilla-form &ndash;&gt; -->
-          <!--</div>-->
-          <!--&lt;!&ndash;/.form-container &ndash;&gt; -->
+        <aside class="col-sm-4">
+          <div class="sidebox widget">
+            <h3 class="widget-title">Address</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7200.693557141467!2d73.90480989856579!3d25.526823251846544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3969b4c963eb9599%3A0x165af2206c056e39!2sDeogarh%2C%20Rajasthan%20313331!5e0!3m2!1sen!2sin!4v1602831090365!5m2!1sen!2sin" width="320" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </address>
+          </div>
+          <!-- /.widget --> 
           
-        </div>
-        <!--/column -->
-        
+        </aside>
+
         <aside class="col-sm-4">
           <div class="sidebox widget">
             <h3 class="widget-title">Address</h3>
@@ -197,6 +94,14 @@ Best wedding Photography, Top wedding photography, Best wedding Photographers, T
           <!-- /.widget --> 
           
         </aside>
+        <div class="col-sm-4">
+          <h2 class="section-title">Get in Touch</h2>
+          <p>We would always prefer to talk with you face to face or over the phone.  (Call now to schedule a free consultation 9787500011) but we also recognize our brides & grooms are very busy people and you may not have the time right nw to chat with us. So, for your convenience we have provided the form below to "Tell Your Story"...</p>
+          <div class="divide10"></div>
+        </div>
+        <!--/column -->
+        
+
         <!--/column --> 
         
       </div>
